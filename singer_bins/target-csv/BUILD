@@ -4,7 +4,7 @@ python_requirement(
 )
 
 pex_binary(
-    name="pex__target_csv",
+    name="bin",
     entry_point="target_csv:main",
     dependencies=[":dep__target_csv"],
 )

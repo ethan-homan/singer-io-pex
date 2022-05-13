@@ -4,7 +4,7 @@ python_requirement(
 )
 
 pex_binary(
-    name="pex__tap_github",
+    name="bin",
     entry_point="tap_github:main",
     dependencies=[":dep__tap_github"],
 )

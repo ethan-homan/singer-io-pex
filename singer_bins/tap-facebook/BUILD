@@ -4,7 +4,7 @@ python_requirement(
 )
 
 pex_binary(
-    name="pex__tap_facebook",
+    name="bin",
     entry_point="tap_facebook:main",
     dependencies=[":dep__tap_facebook"],
 )
