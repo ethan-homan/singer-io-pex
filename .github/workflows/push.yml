@@ -17,4 +17,4 @@ jobs:
       - run: |
           ./pants package singer_bins:singer_pex_bundle
           docker build -t singer .
-          docker run --rm singer tap_github
+          docker run --rm singer tap-github
