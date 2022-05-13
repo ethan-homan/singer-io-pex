@@ -1,11 +1,6 @@
 [GLOBAL]
 pants_version = "2.11.0"
-backend_packages = [
-  "pants.backend.python",
-  "pants.backend.python.lint.black",
-  "pants.backend.python.lint.flake8",
-  "pants.backend.python.typecheck.mypy",
-]
+backend_packages = ["pants.backend.python"]
 
 [python]
 interpreter_constraints = ["CPython==3.9.*"]
