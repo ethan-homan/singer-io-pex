@@ -1,0 +1,6 @@
+dist
+.pants.d
+.pids
+.DS_Store
+config.json
+properties.json

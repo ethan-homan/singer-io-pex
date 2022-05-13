@@ -1,0 +1,9 @@
+archive(
+    name="singer_pex_bundle",
+    format="zip",
+    packages=[
+        "singer_bins/tap_facebook:pex__tap_facebook",
+        "singer_bins/tap_github:pex__tap_github",
+        "singer_bins/target_csv:pex__target_csv",
+    ]
+)
