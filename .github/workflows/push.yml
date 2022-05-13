@@ -1,4 +1,4 @@
-name: Build And Push
+name: docker-build
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   preview:
-    name: Build And Push
+    name: docker-build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

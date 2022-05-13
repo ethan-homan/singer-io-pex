@@ -7,16 +7,8 @@ backend_packages = [
   "pants.backend.python.typecheck.mypy",
 ]
 
-[source]
-root_patterns = [
-  'src',
-]
-
 [python]
 interpreter_constraints = ["CPython==3.9.*"]
-
-[flake8]
-config = ".flake8"
 
 [anonymous-telemetry]
 enabled = false
