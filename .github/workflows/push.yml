@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.9
-        uses: docker/setup-buildx-action@v2
+      - uses: docker/setup-buildx-action@v2
       - run: |
           ./pants package ::
           docker build -t singer .
